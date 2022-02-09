@@ -6,6 +6,8 @@ const Body = styled.div`
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0.1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 `;
 
 export default Body;

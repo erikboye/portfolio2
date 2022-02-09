@@ -2,8 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 :root {
-    --font-body: PT Sans, Helvetica Neue, sans-serif;
-    --font-headings: Rokurou, Arial, serif;
+    --font-mont: 'Montserrat', sans-serif;
+    --font-bebas: 'Bebas Neue', cursive;
   
     /* FONT SIZES */
     --font-size-base: 16px;
@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     --font-size-md: 1.5rem;
     --font-size-lg: 2.25rem;
     --font-size-xl: 3.375rem;
-    --font-size-xxl: 5.068rem;
+    --font-size-xxl: 5.9rem;
     --font-size-huge: 7.594rem;
     --font-size-jumbo: 11.391rem;
   
@@ -31,18 +31,21 @@ const GlobalStyle = createGlobalStyle`
     --size-jumbo: 182px;
   
     /* COLORS */
+    --logo-color: rgba(255, 255, 255, 0.8);
+    --orange-color: rgba(255, 122, 0, 0.8);
+    --h1-hero: rgba(255, 255, 255, 0.85);
+    --h3-hero: rgba(126, 135, 114, 1);
     --color-primary: #384531;
-    --color-secondary: #dd6031;
     --color-tertiary: #4281a4;
     --color-quaternary: #dadada;
     --color-white: #fff;
     --color-black: #282828;
-  
-    --c-action: var(--color-secondary);
+    --color-bg: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0.1) 100%);
+
+    --c-action: var(--navitem-color);
     --c-danger: rgb(190, 47, 47);
     --c-success: var(--color-primary);
     --c-info: var(--color-tertiary);
-    --c-bg: var(--color-primary);
     --c-text: var(--color-black);
     --c-text--inverse: var(--color-white);
     --c-disabled: var(--color-quaternary);
@@ -91,7 +94,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   html {
-    background: var(--c-bg);
+    background: var(--color-bg);
     font-family: var(--font-body);
     font-size: var(--font-size-base);
     scroll-behavior: smooth;

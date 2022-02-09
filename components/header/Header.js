@@ -1,10 +1,34 @@
-import styled from "styled-components";
+import React from "react";
+import { Wrapper, Nav, NavItem, Logo } from "./header-style";
 
-const Header = styled.header`
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+function Header() {
+  const navList = [
+    {
+      link: "#about",
+      title: "About",
+    },
+    {
+      link: "#portfolio",
+      title: "Portfolio",
+    },
+    {
+      link: "#Contact",
+      title: "Contact",
+    },
+  ];
+
+  return (
+    <Wrapper>
+      <Logo>EBS</Logo>
+      <Nav>
+        {navList.map(({ link, title }) => (
+          <NavItem key={link}>
+            <a href={link}>{title}</a>
+          </NavItem>
+        ))}
+      </Nav>
+    </Wrapper>
+  );
+}
 
 export default Header;
