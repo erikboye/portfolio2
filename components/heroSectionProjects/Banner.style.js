@@ -1,11 +1,10 @@
-import React from "react";
 import styled from "styled-components";
 
-const HeroBannerProjects = styled.div`
+export const BannerStyle = styled.div`
   width: 100%;
   padding: 150px 100px 0 100px;
 
-  h1 {
+  .myprj {
     font-family: var(--font-bebas);
     font-size: var(--font-size-xxl);
     text-align: center;
@@ -15,13 +14,3 @@ const HeroBannerProjects = styled.div`
     border: 2px solid lightgreen;
   }
 `;
-
-function HeroSectionProjects() {
-  return (
-    <HeroBannerProjects>
-      <h1>MY PROJECTS</h1>
-    </HeroBannerProjects>
-  );
-}
-
-export default HeroSectionProjects;

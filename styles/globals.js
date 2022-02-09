@@ -116,6 +116,16 @@ const GlobalStyle = createGlobalStyle`
   a {
     color: var(--c-action);
   }
+
+  h1,h2,h3,p {
+    margin-bottom: 0px;
+  }
+
+  h1 {
+    margin-top: 0px;
+  }
+
+
   
   .my-element {
     display: inline-block;

@@ -10,6 +10,8 @@ const HeroBanner = styled.div`
     font-family: var(--font-bebas);
     color: var(--h3-hero);
     text-align: center;
+    height: 50px;
+    border: 2px solid red;
     width: 100%;
   }
 

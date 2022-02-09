@@ -3,10 +3,10 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/header/Header";
 import Body from "../components/body/Body";
 import Main from "../components/main/Main";
-import Footer from "../components/footer/Footer";
 import HeroSection from "../components/heroSection/HeroSection";
 import ScrollDown from "../components/scrolldown/ScrollDown";
-import HeroSectionProjects from "../components/heroSection/HeroSectionProjects";
+import HeroSectionProjects from "../components/HeroSectionProjects";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -17,13 +17,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Body>
-        <Header></Header>
+        <Header />
         <Main>
-          <HeroSection></HeroSection>
-          <ScrollDown></ScrollDown>
-          <HeroSectionProjects></HeroSectionProjects>
+          <HeroSection />
+          <ScrollDown />
+          <HeroSectionProjects />
         </Main>
-        <Footer></Footer>
+        <Footer />
       </Body>
     </>
   );
