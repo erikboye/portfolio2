@@ -4,8 +4,9 @@ import Body from "../components/body/Body";
 import Main from "../components/main/Main";
 import HeroSection from "../components/heroSection/HeroSection";
 import ScrollDown from "../components/scrolldown/ScrollDown";
+import MyProjects from "../components/herosection/MyProjects";
+import Mockups from "../components/Mockups/MyMockups";
 import Footer from "../components/footer/Footer";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -20,8 +21,10 @@ export default function Home() {
         <Main>
           <HeroSection />
           <ScrollDown />
+          <MyProjects />
+          <Mockups />
+          <Footer />
         </Main>
-        <Footer />
       </Body>
     </>
   );

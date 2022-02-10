@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   width: 80%;
   margin: auto;
   flex: 0 0 80px;
-  height: 70px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,6 +15,7 @@ export const Logo = styled.p`
   font-size: 50px;
   letter-spacing: 0.15em;
   color: var(--logo-color);
+  padding: 0 0 50px 50px;
 `;
 
 export const Nav = styled.nav`

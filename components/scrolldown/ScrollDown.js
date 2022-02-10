@@ -5,12 +5,11 @@ import Image from "next/Image";
 const ScrollDownContainer = styled.div`
   font-family: var(--font-mont);
   letter-spacing: 0.2em;
-  margin-top: 250px;
+  margin-top: 320px;
   padding: 50px 0 50px 0;
   width: 100%;
   color: var(--orange-color);
   text-align: center;
-  border: 2px solid lightblue;
 `;
 
 function ScrollDown() {
@@ -21,7 +20,7 @@ function ScrollDown() {
         src="/images/arrow.svg"
         alt="arrow"
         font-weight=""
-        height={50}
+        height={80}
         width={80}
       ></Image>
     </ScrollDownContainer>

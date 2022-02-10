@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
   
     /* FONT SIZES */
     --font-size-base: 16px;
+    --font-size-erik: 18px;
     --font-size-xxs: 0.296rem;
     --font-size-xs: 0.444rem;
     --font-size-sm: 0.667rem;

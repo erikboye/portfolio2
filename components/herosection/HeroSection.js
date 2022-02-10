@@ -11,7 +11,6 @@ const HeroBanner = styled.div`
     color: var(--h3-hero);
     text-align: center;
     height: 50px;
-    border: 2px solid red;
     width: 100%;
   }
 
@@ -28,7 +27,7 @@ const HeroBanner = styled.div`
 function HeroSection() {
   return (
     <HeroBanner>
-      <h3>HELLO WORLD</h3>
+      <h3>HELLO, WORLD.</h3>
       <h1>IM A FRONTEND DEVELOPER.</h1>
     </HeroBanner>
   );
