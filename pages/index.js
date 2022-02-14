@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "../components/header/Header";
 import Body from "../components/body/Body";
 import Main from "../components/main/Main";
-import HeroSection from "../components/heroSection/HeroSection";
+import HeroSection from "../components/herosection/HeroSection";
 import ScrollDown from "../components/scrolldown/ScrollDown";
 import MyProjects from "../components/herosection/MyProjects";
 import Projects from "../components/Mockups/Cards";
