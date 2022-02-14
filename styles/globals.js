@@ -78,9 +78,8 @@ const GlobalStyle = createGlobalStyle`
     --shadow-2: 0 5px 6px 0 rgb(0 0 0 / 16%);
     --shadow-3: 0 8px 10px 0 rgb(0 0 0 / 22%);
   
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 991) {
       --font-size-base: 18px;
-  
       --size-xxs: 6px;
       --size-xs: 8px;
       --size-sm: 13px;
@@ -108,9 +107,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0px;
   }
 
-  html {
-    scroll-behavior:smooth;
-  }
+
   
   *,
   *:before,

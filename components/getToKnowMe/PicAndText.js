@@ -3,13 +3,11 @@ import styled from "styled-components";
 import Image from "next/Image";
 
 const PictureAndText = styled.div`
-   {
-    text-align: center;
-    letter-spacing: 0.05em;
-    width: 100%;
-    color: var(--h1-hero);
-    margin-top: 200px;
-  }
+  text-align: center;
+  letter-spacing: 0.05em;
+  width: 100%;
+  color: var(--h1-hero);
+  margin-top: 200px;
 
   p {
     padding: 70px;
@@ -25,7 +23,7 @@ const PictureAndText = styled.div`
 
 function PicAndText() {
   return (
-    <PictureAndText>
+    <PictureAndText id="about">
       <Image
         src="/images/me.png"
         alt="PicOfMe"
@@ -35,7 +33,7 @@ function PicAndText() {
       <div className="textWrapper">
         <p>
           28 years old, born and raised in a beautiful town in Norway, named
-          Stavern. I've lived in Oslo since 2014, selling cars, purchasing
+          Stavern. I lived in Oslo since 2014, selling cars, purchasing
           consultant, customerservice, and finally started studying Front-End
           Developing at Noroff in Oslo in year 2020, and Im proud to say that Im
           freshly educated in 2022. I love to build, and find this course very

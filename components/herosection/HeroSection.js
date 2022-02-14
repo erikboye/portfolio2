@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+// import media from "styled-media-query";
 
 const HeroBanner = styled.div`
   width: 100%;
@@ -22,11 +23,20 @@ const HeroBanner = styled.div`
     width: 100%;
     color: var(--h1-hero);
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 30px;
+    }
+  }
 `;
 
 function HeroSection() {
   return (
-    <HeroBanner>
+    <HeroBanner id="home">
       <h3>Hi, Im Erik.</h3>
       <h1>A freshly educated frontend developer.</h1>
     </HeroBanner>

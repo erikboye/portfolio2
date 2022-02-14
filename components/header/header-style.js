@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   width: 80%;
   margin: auto;
   flex: 0 0 80px;
-  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,14 +14,20 @@ export const Logo = styled.p`
   font-size: 50px;
   letter-spacing: 0.15em;
   color: var(--logo-color);
-  padding: 0 0 50px 50px;
+  margin: 0;
 `;
 
 export const Nav = styled.nav`
   display: flex;
-  width: 30%;
+  width: 100%;
   justify-content: space-between;
   flex-direction: row;
+`;
+
+export const NavElmWrapper = styled.ul`
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
 `;
 
 export const NavItem = styled.div`

@@ -39,7 +39,7 @@ const Projects = () => {
               <h3>{year}</h3>
               <p>{description}</p>
               <div className="projectImage">
-                <img src={image} alt="projectimages" />
+                <img className="imagesmac" src={image} alt="projectimages" />
               </div>
             </div>
           </div>

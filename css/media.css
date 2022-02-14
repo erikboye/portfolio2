@@ -1,0 +1,8 @@
+@media (max-width: 991px) {
+  
+    h3 {
+      background-image: url(/img/bcg-media.png) !important;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 800px;
+    };

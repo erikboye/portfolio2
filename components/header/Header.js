@@ -1,31 +1,39 @@
 import React from "react";
-import { Wrapper, Nav, NavItem, Logo } from "./header-style";
+import { Wrapper, Nav, NavElmWrapper, NavItem, Logo } from "./header-style";
 
 function Header() {
   const navList = [
     {
-      link: "#about",
-      title: "About",
+      id: "1",
+      link: "#home",
+      title: "Home",
     },
     {
+      id: "2",
       link: "#portfolio",
       title: "Portfolio",
     },
     {
-      link: "#Contact",
-      title: "Contact",
+      id: "3",
+      link: "#about",
+      title: "About",
     },
   ];
 
   return (
     <Wrapper>
-      <Logo>EBS</Logo>
       <Nav>
-        {navList.map(({ link, title }) => (
-          <NavItem key={link}>
-            <a href={link}>{title}</a>
-          </NavItem>
-        ))}
+        <Logo>EBS</Logo>
+        <NavElmWrapper>
+          {navList.map(({ id, link, title }) => (
+            <NavItem key={id}>
+              <a href={link} className="navElm">
+                {title}
+              </a>
+            </NavItem>
+          ))}
+          ;
+        </NavElmWrapper>
       </Nav>
     </Wrapper>
   );
