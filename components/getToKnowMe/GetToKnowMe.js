@@ -15,7 +15,7 @@ function GTKM() {
   return (
     <GetToKnowMe>
       <p>GET TO KNOW ME</p>
-      <Image src="/images/arrow.svg" alt="arrow" height={80} width={80}></Image>
+      <image src="/images/arrow.svg" alt="arrow" height={80} width={80}></image>
     </GetToKnowMe>
   );
 }
