@@ -97,7 +97,7 @@ const GlobalStyle = createGlobalStyle`
     background: var(--color-bg);
     font-family: var(--font-body);
     font-size: var(--font-size-base);
-    scroll-behavior: smooth;
+ 
   }
   
   html,

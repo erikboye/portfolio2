@@ -16,7 +16,7 @@ function ScrollDown() {
   return (
     <ScrollDownContainer>
       <p>SCROLL DOWN</p>
-      <image src="/images/arrow.svg" alt="arrow" height={80} width={80}></image>
+      <Image src="/images/arrow.svg" alt="arrow" height={80} width={80} />
     </ScrollDownContainer>
   );
 }
