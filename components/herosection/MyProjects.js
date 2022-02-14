@@ -1,9 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaJsSquare } from "react-icons/fa";
 
 const ProjectBanner = styled.div`
   width: 100%;
   padding: 300px 100px 0 100px;
+  text-align: center;
 
   h2 {
     font-family: var(--font-bebas);
@@ -15,13 +20,8 @@ const ProjectBanner = styled.div`
   }
 
   p {
-    font-family: var(--font-mont);
-    font-size: var(--font-size-erik);
-    text-align: center;
-    letter-spacing: 0.07em;
-    width: 42%;
-    margin: auto;
-    color: var(--h1-hero);
+    color: var(--orange-color);
+    font-size: var(--font-size-md);
   }
 `;
 
@@ -30,8 +30,10 @@ function MyProjects() {
     <ProjectBanner>
       <h2>MY PROJECTS</h2>
       <p>
-        Hi. My name is Erik, I am a 28 year old Frontend Developer. Im located
-        in Oslo, and been living here for the last 10 years.
+        In these projects, my skills like <FaHtml5 />
+        <FaCss3Alt />
+        <FaReact />
+        <FaJsSquare /> has been used
       </p>
     </ProjectBanner>
   );

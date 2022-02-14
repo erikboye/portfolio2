@@ -20,7 +20,7 @@ export const Logo = styled.p`
 
 export const Nav = styled.nav`
   display: flex;
-  width: 25%;
+  width: 30%;
   justify-content: space-between;
   flex-direction: row;
 `;

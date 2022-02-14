@@ -5,7 +5,10 @@ import Main from "../components/main/Main";
 import HeroSection from "../components/heroSection/HeroSection";
 import ScrollDown from "../components/scrolldown/ScrollDown";
 import MyProjects from "../components/herosection/MyProjects";
-import Mockups from "../components/Mockups/MyMockups";
+import Projects from "../components/Mockups/Cards";
+import GetToKnowMe from "../components/getToKnowMe/GetToKnowMe";
+import MeSection from "../components/getToKnowMe/MeSection";
+import PicAndText from "../components/getToKnowMe/PicAndText";
 import Footer from "../components/footer/Footer";
 
 export default function Home() {
@@ -22,7 +25,10 @@ export default function Home() {
           <HeroSection />
           <ScrollDown />
           <MyProjects />
-          <Mockups />
+          <Projects />
+          <GetToKnowMe />
+          <MeSection />
+          <PicAndText />
           <Footer />
         </Main>
       </Body>

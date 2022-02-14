@@ -16,9 +16,9 @@ const HeroBanner = styled.div`
 
   h1 {
     font-family: var(--font-bebas);
-    font-size: var(--font-size-xxl);
+    font-size: var(--font-size-xl);
     text-align: center;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.06em;
     width: 100%;
     color: var(--h1-hero);
   }
@@ -27,8 +27,8 @@ const HeroBanner = styled.div`
 function HeroSection() {
   return (
     <HeroBanner>
-      <h3>HELLO, WORLD.</h3>
-      <h1>IM A FRONTEND DEVELOPER.</h1>
+      <h3>Hi, Im Erik.</h3>
+      <h1>A freshly educated frontend developer.</h1>
     </HeroBanner>
   );
 }

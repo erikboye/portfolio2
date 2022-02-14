@@ -2,23 +2,22 @@ import React from "react";
 import styled from "styled-components";
 import Image from "next/Image";
 
-const ScrollDownContainer = styled.div`
+const GetToKnowMe = styled.div`
   font-family: var(--font-mont);
   letter-spacing: 0.2em;
-  margin-top: 320px;
-  padding: 50px 0 50px 0;
+  padding: 200px 0 50px 0;
   width: 100%;
   color: var(--orange-color);
   text-align: center;
 `;
 
-function ScrollDown() {
+function GTKM() {
   return (
-    <ScrollDownContainer>
-      <p>SCROLL DOWN</p>
+    <GetToKnowMe>
+      <p>GET TO KNOW ME</p>
       <Image src="/images/arrow.svg" alt="arrow" height={80} width={80}></Image>
-    </ScrollDownContainer>
+    </GetToKnowMe>
   );
 }
 
-export default ScrollDown;
+export default GTKM;

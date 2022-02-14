@@ -6,16 +6,24 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 const FooterBanner = styled.div`
-  width: 100%;
-  padding: 0 100px 0 0;
-  border: 2px solid yellow;
+  width: 50%;
+  padding: 50px 0 20px 0;
+  text-align: center;
   margin: auto;
+
+  .FooterIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--orange-color);
+    margin: auto;
+  }
 `;
 
 function Footer() {
   return (
     <FooterBanner>
-      <h3>
+      <h3 className="FooterIcons">
         <FaInstagram />
         <FaGithub />
         <FaFacebookSquare />

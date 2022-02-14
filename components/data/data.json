@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Portfolio 1st year",
+    "year": "2021",
+    "description": "Portfolio from my first year as a Frontend Developer.",
+    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj1.png"
+  },
+  {
+    "id": "2",
+    "title": "Easy Jewlery",
+    "year": "2022",
+    "description": "Semester-Project from my first year as a Frontend Developer.",
+    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj3.png"
+  },
+  {
+    "id": "3",
+    "title": "World Of Music",
+    "year": "2021",
+    "description": "Project from my first year as a Frontend student.",
+    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj4.png"
+  },
+  {
+    "id": "4",
+    "title": "Museum",
+    "year": "2020",
+    "description": "One of the first study-projects.",
+    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj2.png"
+  }
+]

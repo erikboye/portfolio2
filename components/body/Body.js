@@ -5,7 +5,7 @@ const Body = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0.1) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 50%, #000000);
   background-repeat: no-repeat;
   background-attachment: fixed;
 `;

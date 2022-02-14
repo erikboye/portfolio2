@@ -107,6 +107,10 @@ const GlobalStyle = createGlobalStyle`
     padding: 0px;
     margin: 0px;
   }
+
+  html {
+    scroll-behavior:smooth;
+  }
   
   *,
   *:before,
