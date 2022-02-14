@@ -1,4 +1,6 @@
+import React from "react";
 import styled from "styled-components";
+import Image from "next/Image";
 
 const GetToKnowMe = styled.div`
   font-family: var(--font-mont);
@@ -13,7 +15,7 @@ function GTKM() {
   return (
     <GetToKnowMe>
       <p>GET TO KNOW ME</p>
-      <img src="/images/arrow.svg" alt="arrow" height={80} width={80} />
+      <Image src="/images/arrow.svg" alt="arrow" height={80} width={80}></Image>
     </GetToKnowMe>
   );
 }
