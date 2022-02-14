@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Image from "next/Image";
 
 const ScrollDownContainer = styled.div`
   font-family: var(--font-mont);
