@@ -24,12 +24,7 @@ const PictureAndText = styled.div`
 function PicAndText() {
   return (
     <PictureAndText id="about">
-      <Image
-        src="/images/me.png"
-        alt="PicOfMe"
-        height={600}
-        width={400}
-      ></Image>
+      <img src="/images/me.png" alt="PicOfMe" height={600} width={400} />
       <div className="textWrapper">
         <p>
           28 years old, born and raised in a beautiful town in Norway, named
