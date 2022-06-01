@@ -10,7 +10,7 @@ const ProjectContainer = styled.div`
   text-align: center;
 
   h2 {
-    font-size: var(--font-size);
+    font-size: 3rem;
     color: var(--orange-color);
   }
 

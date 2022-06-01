@@ -23,7 +23,7 @@ function Header() {
   return (
     <Wrapper>
       <Nav>
-        <Logo>EBS</Logo>
+        <Logo>Sørensen Design</Logo>
         <NavElmWrapper>
           {navList.map(({ id, link, title }) => (
             <NavItem key={id}>

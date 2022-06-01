@@ -11,8 +11,8 @@ export const Wrapper = styled.div`
 
 export const Logo = styled.p`
   font-family: var(--font-bebas);
-  font-size: 50px;
-  letter-spacing: 0.15em;
+  font-size: 3rem;
+  letter-spacing: 0.1em;
   color: var(--logo-color);
   margin: 0;
 `;

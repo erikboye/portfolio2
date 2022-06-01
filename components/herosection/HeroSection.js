@@ -6,11 +6,11 @@ const HeroBanner = styled.div`
   padding: 150px 100px 0 100px;
 
   h3 {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: var(--font-bebas);
     color: var(--h3-hero);
     text-align: center;
-    height: 50px;
+    height: 80px;
     width: 100%;
   }
 
@@ -18,7 +18,7 @@ const HeroBanner = styled.div`
     font-family: var(--font-bebas);
     font-size: var(--font-size-xl);
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.1em;
     width: 100%;
     color: var(--h1-hero);
   }
