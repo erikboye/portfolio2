@@ -24,23 +24,27 @@ const ProjectContainer = styled.div`
     margin-bottom: 100px;
     margin-top: 100px;
   }
+
+  .projectDescription {
+    padding-bottom: 50px;
+  }
 `;
 
 const Projects = () => {
   return (
     <>
       <ProjectContainer>
-        {Data.map(({ id, title, year, description, image }) => (
+        {Data.map(({ id, title, year, description, image, link }) => (
           <div className="Card" key={id}>
             <div className="projText">
               <div className="projectTitle">
                 <h2>{title}</h2>
               </div>
               <h3>{year}</h3>
-              <p>{description}</p>
-              <div className="projectImage">
+              <p className="projectDescription">{description}</p>
+              <a href={link} className="projectImage">
                 <img className="imagesmac" src={image} alt="projectimages" />
-              </div>
+              </a>
             </div>
           </div>
         ))}

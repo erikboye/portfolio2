@@ -17,6 +17,7 @@ const FooterBanner = styled.div`
     justify-content: space-evenly;
     color: var(--orange-color);
     margin: auto;
+    font-size: 3rem;
   }
 `;
 

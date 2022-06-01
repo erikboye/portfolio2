@@ -4,20 +4,23 @@
     "title": "Portfolio 1st year",
     "year": "2021",
     "description": "Portfolio from my first year as a Frontend Developer-student.",
-    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj1.png"
+    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj1.png",
+    "link": " https://elastic-shaw-b1a243.netlify.app"
   },
   {
     "id": "2",
     "title": "Easy Jewlery",
     "year": "2022",
     "description": "Semester-Project from my first year as a Frontend Developer.",
-    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj3.png"
+    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj3.png",
+    "link": "https://vigilant-saha-1a2cd2.netlify.app"
   },
   {
     "id": "4",
     "title": "Prima Vera",
     "year": "2022",
     "description": "This is my final project exam as a Frontend Developer-student.",
-    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj2.png"
+    "image": "https://quizzical-galileo-2750c6.netlify.app/images/proj2.png",
+    "link": "https://erikboye-projectexam2022.netlify.app"
   }
 ]

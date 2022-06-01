@@ -37,7 +37,7 @@ function HeroSection() {
   return (
     <HeroBanner id="home">
       <h3>Hi, Im Erik.</h3>
-      <h1>A freshly educated frontend developer.</h1>
+      <h1>A frontend developer!</h1>
     </HeroBanner>
   );
 }

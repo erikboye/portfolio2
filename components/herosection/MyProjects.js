@@ -25,6 +25,7 @@ const ProjectBanner = styled.div`
   p {
     color: var(--orange-color);
     font-size: var(--font-size-md);
+    letter-spacing: 0.1em;
   }
 
   @media (max-width: 768px) {
