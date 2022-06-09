@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const HeroBanner = styled.div`
   width: 100%;
-  padding: 150px 100px 0 100px;
+  padding-top: 150px;
 
   h3 {
     font-size: 4rem;
@@ -29,6 +29,8 @@ const HeroBanner = styled.div`
   @media (max-width: 400px) {
     h1 {
       font-size: 30px;
+      margin-top: 30px;
+      margin: auto;
     }
   }
 `;

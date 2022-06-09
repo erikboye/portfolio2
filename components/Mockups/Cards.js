@@ -28,6 +28,13 @@ const ProjectContainer = styled.div`
   .projectDescription {
     padding-bottom: 50px;
   }
+
+  @media (max-width: 500px) {
+    .imagesmac {
+      width: 80%;
+      height: 80%;
+    }
+  }
 `;
 
 const Projects = () => {

@@ -10,7 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 const ProjectBanner = styled.div`
   width: 100%;
-  padding: 300px 100px 0 100px;
+  padding-top: 200px;
   text-align: center;
 
   h2 {

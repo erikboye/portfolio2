@@ -15,6 +15,11 @@ export const Logo = styled.p`
   letter-spacing: 0.1em;
   color: var(--logo-color);
   margin: 0;
+
+     @media (max-width: 991px) {
+  {
+    font-size: 24px;
+  };
 `;
 
 export const Nav = styled.nav`
@@ -26,8 +31,20 @@ export const Nav = styled.nav`
 
 export const NavElmWrapper = styled.ul`
   display: flex;
-  width: 40%;
+  width: 55%;
   justify-content: space-between;
+
+  @media (max-width: 991px) {
+  {
+    width: 100%;
+
+  };
+
+  @media (max-width: 455px) {
+  {
+  display: none;
+
+  };
 `;
 
 export const NavItem = styled.div`
@@ -36,8 +53,17 @@ export const NavItem = styled.div`
   font-family: var(--font-headings);
   color: var(--orange-color);
 
+
+
   a {
     text-decoration: none;
     font-weight: 400;
+
+
+    @media (max-width: 991px) {
+  {
+    font-size: 14px;
+    display: flex;
+  };
   }
 `;
